@@ -1,0 +1,14 @@
+{
+	"checkIntervalSec": 30,
+	"TOKEN": "...",
+	"games": [
+		{
+			"gameID": "0123456789",
+			"webhookURL": "https://discord.com/api/webhooks/012345678912345678/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+		},
+		{
+			"gameID": "9876543210",
+			"webhookURL": "https://discord.com/api/webhooks/012345678912345678/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx?thread_id=012345678912345678"
+		}
+	]
+}
