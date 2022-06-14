@@ -25,3 +25,8 @@ In Roblox terms, "game", "experience", and "universe" are all defined as the sam
 // It will be used in order to fetch the live stats for each game.
 // Note: The account used must have edit access to the games.
 ```
+
+**Starting the "bot"**
+### Dependencies
+- `node-fetch` (Version `v3.x.x` will NOT work! Use `v2.x.x`!)
+- (`node-fetch@2.6.7` recommended)
