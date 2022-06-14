@@ -17,8 +17,8 @@ setInterval(() => {
 						title: `${json.totalPlayerCount} visitors in ${json.gameCount} server${json.gameCount==1?'':'s'}`,
 						color: 5793266,
 						description: deviceTypes.map(t => { return `${t}: ${json.playerCountsByDeviceType[t]}` }).join('\n'),
-						timestamp: new Date().toISOString(),
-						url: `https://www.roblox.com/games/${game.gameID}/`
+						timestamp: new Date().toISOString()//,
+						//url: `https://www.roblox.com/games/${game.gameID}/`
 					}]
 				})
 			})
